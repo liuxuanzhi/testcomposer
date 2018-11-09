@@ -1,0 +1,23 @@
+
+{
+    "name": "liuxuanzhi/testcomposer",
+    "description": "try make a package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+        "name": "liuxuanzhi",
+        "email": "439293885@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Game\\Dota\\": "src/Game/Dota",
+            "Game\\CSGO\\": "src/Game/CSGO"
+        }
+    }
+}
